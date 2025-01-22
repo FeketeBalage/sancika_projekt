@@ -1,0 +1,6 @@
+-Az alapok: Pythonon belüli program létrehozássa az edzéstervel kapcsolatban egy véletlenszerű gyakorlatot a kiválasztott testrész edzéséhez
+
+-Alapvető koncepció:
+
+-Az alkalmazásnak kérdéseket kell feltennie a felhasználónak pl. Milyen típusú edzést szeretnél?, Milyen intenzitású legyen?  Melyik testrészt szeretnéd edzeni?
+-A válaszok alapján véletlenszerűen generál edzésprogramot amely tartalmazza a gyakorlatokat azok ismétléseivel és sorozataival.
