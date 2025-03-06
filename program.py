@@ -22,10 +22,10 @@ def edzes_program(edzes_tipus, intenzitas):
     szam = 10 if intenzitas == "magas" else 7 if intenzitas == "kozepes" else 5
     edzes = random.sample(gyakorlat_lista, szam)
 
-    print(f"\nAz Ön edzésprogramja ({edzes_tipus}) - {intenzitas} intenzitás:")
+    print("Az Ön edzésprogramja ({edzes_tipus}) - {intenzitas} intenzitás:")
     for gyakorlat in edzes:
         print(f"- {gyakorlat}")
-    print("\nNe felejts el bemelegíteni és nyújtani a végén!")
+    print("Ne felejts el bemelegíteni és nyújtani a végén!")
 
 def main():
     edzes_tipus, intenzitas = valasz_kap()
